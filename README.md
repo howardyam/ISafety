@@ -44,6 +44,25 @@ This is project for course Mobile Application Development (CSS3344).
 
 ---
 
+## Gantt Chart:
+```mermaid
+    gantt
+    tickInterval 1week
+    weekday monday
+    Selection of title : done, 2023-10-09, 1w
+    Brainstorming on ideas, planning : active, 2023-10-09, 3w
+    Code interface : 2023-10-16, 4w
+    Safety information, resources, and tips: 2023-10-23, 4w
+    User registration and profiles: 2023-10-23, 4w
+    Safety issues reporting: 2023-10-23, 4w
+    Incident traking and updates: 2023-11-06, 4w
+    Real-time messaging with authorities or community leaders : 2023-11-06, 4w
+    Testing : 2023-10-16, 9w
+    Deployment : 2023-12-04, 2w
+```
+
+---
+
 ## Links:
 
 * [Github](https://github.com/howardyam/ISafety)
