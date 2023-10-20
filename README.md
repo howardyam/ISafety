@@ -1,6 +1,6 @@
 # iSafety
 
-## Group member:
+## Group members:
 
 * [Song Kim Hian](https://github.com/song1351) (BCS21090023)
 * [Howard Yam How Wei](https://github.com/howardyam) (BCS21090002)
