@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ISafety.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ISafety"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar x:Name="MyTabs">
+
+        <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Icon="home.png"
+        Route="MainPage"/>
+
+        <ShellContent
+        Title="Community"
+        ContentTemplate="{DataTemplate local:Community}"
+        Icon="people.png"
+        Route="Community"/>
+
+        <ShellContent
+        Title="Profile"
+        ContentTemplate="{DataTemplate local:Profile}"
+        Icon="user.png"
+        Route="Profile"/>
+
+
+
+    </TabBar>
+</Shell>

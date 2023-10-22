@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISafety.MainPage">
+
+    <ScrollView>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="10">
+            <Label Text="Welcome to ISafety"    HorizontalOptions="Start" FontSize="Large" 
+                   FontAttributes="Bold" Margin="5, 10"/>
+
+            <Grid Padding="10" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150" />
+                    <RowDefinition Height="100"/>
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition />
+
+                </Grid.ColumnDefinitions>
+                <Frame Grid.RowSpan="2"
+           Grid.Column="0"
+           BackgroundColor="White"
+           CornerRadius="10"
+           BorderColor="Black"
+           >
+
+                    <Label Text="Row 1, Column 0"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+                </Frame>
+
+                <Frame 
+           Grid.Column="1"
+           BackgroundColor="White"
+           CornerRadius="10"
+           BorderColor="Black" Margin="10,0,10,0"
+           >
+
+                    <Label Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+                </Frame>
+
+                <Frame Grid.Column="1" Grid.Row="1" 
+                   BackgroundColor="White" 
+                   CornerRadius="10" BorderColor="Black"
+                   Margin="10,10,10,0">
+
+                    <Label Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"  />
+                </Frame>
+
+
+            </Grid>
+            <Label Text="Safety Issues Nearby"  TextColor="black" HorizontalOptions="Start" FontSize="Large" FontAttributes="Bold" Margin="0, 10"/>
+            <Frame BorderColor="Black" CornerRadius="5" Margin="10,10" HeightRequest="150" HasShadow="True"
+               >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="200" />
+
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+
+
+                    </Grid.ColumnDefinitions>
+                    <Frame BackgroundColor="Black" Grid.Column="0" Grid.RowSpan="2" VerticalOptions="Start" HorizontalOptions="Start" ></Frame>
+                    <Frame WidthRequest="200" HeightRequest="200"
+                       BackgroundColor="Red" CornerRadius="50" 
+                       VerticalOptions="Start" Grid.Column="0" Grid.Row="0" >
+
+                    </Frame>
+                    <Frame WidthRequest="200" HeightRequest="200" 
+                       BackgroundColor="Blue" CornerRadius="50" 
+                       VerticalOptions="End" Grid.Column="0" Grid.Row="0">
+
+                    </Frame>
+                    <StackLayout Grid.Column="1" Background="yellow" >
+
+                        <Label Text="Road Safety" TextColor="Black" FontSize="24" FontAttributes="Bold" HorizontalOptions="Start"/>
+                        <Label Text="Car accident" TextColor="Black" FontSize="18"  HorizontalOptions="Start"/>
+                        <Label Text="10/10/2020 9:26PM"  TextColor="Black" FontSize="14" HorizontalOptions="Start"/>
+                        <Label Text="10, Lor Aman 2, Jalan Lanang, 96000 Sibu, Sarawak" TextColor="Black" FontSize="14"  HorizontalOptions="Start"/>
+
+                    </StackLayout>
+
+                </Grid>
+
+            </Frame>
+            <Frame BorderColor="Black" CornerRadius="50"  HeightRequest="75" Margin="10,10" ></Frame>
+        </StackLayout>
+
+    </ScrollView>
+
+
+</ContentPage>
