@@ -4,9 +4,83 @@
              x:Class="ISafety.Profile"
              Title="Profile">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI! Hello"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Grid Padding="10,30,10,0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+             
+                <ColumnDefinition />
+
+            </Grid.ColumnDefinitions>
+            
+
+            <Frame 
+           
+           BackgroundColor="White"
+           CornerRadius="10"
+           BorderColor="Black" Margin="10,0,10,0"
+           >
+
+                <Label Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            </Frame>
+
+            
+            <Frame  Grid.Row="1" 
+                   BackgroundColor="LightYellow" 
+                   CornerRadius="55" 
+                   Margin="10,10,10,0"
+                    HeightRequest="100" WidthRequest="100">
+
+                <Image Source="Home.png"  />
+            </Frame>
+
+            <Frame  Grid.Row="2" 
+                   BackgroundColor="White" 
+                   CornerRadius="10" BorderColor="Black"
+                   Margin="10,10,10,0"
+                    >
+
+                <Label Text="Row 0, Column 1"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"  />
+            </Frame>
+            <Frame  Grid.Row="3" 
+                   BackgroundColor="White" 
+                   CornerRadius="10" BorderColor="Black"
+                   Margin="10,10,10,0">
+
+                <Label Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"  />
+            </Frame>
+            <Frame Grid.Row="4" 
+                   BackgroundColor="White" 
+                   CornerRadius="10" BorderColor="Black"
+                   Margin="10,10,10,0">
+
+                <Label Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"  />
+            </Frame>
+            <Frame Grid.Row="5" 
+                   BackgroundColor="White" 
+                   CornerRadius="10" BorderColor="Black"
+                   Margin="10,10,10,0">
+
+                <Label Text="Row 0, Column 1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"  />
+            </Frame>
+
+
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
