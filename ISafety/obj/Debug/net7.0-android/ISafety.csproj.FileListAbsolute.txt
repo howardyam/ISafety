@@ -974,3 +974,9 @@ C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\and
 C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\resizetizer\r\drawable\analysis.png
+C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\resizetizer\r\drawable\back.png
+C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\resizetizer\r\drawable\logout.png
+C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\resizetizer\r\drawable\settings.png
+C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\resizetizer\r\drawable\userprofile.png
+C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-android\resizetizer\r\drawable\next.png

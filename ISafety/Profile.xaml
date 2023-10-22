@@ -4,81 +4,98 @@
              x:Class="ISafety.Profile"
              Title="Profile">
     <VerticalStackLayout>
-        <Grid Padding="10,30,10,0" >
+        <Grid Padding="10,10,10,0" >
             <Grid.RowDefinitions>
-                <RowDefinition Height="50" />
+                <RowDefinition Height="70" />
                 <RowDefinition Height="*" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="50" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
+                <RowDefinition Height="100" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-             
+
                 <ColumnDefinition />
-
             </Grid.ColumnDefinitions>
-            
 
-            <Frame 
-           
-           BackgroundColor="White"
-           CornerRadius="10"
-           BorderColor="Black" Margin="10,0,10,0"
-           >
-
-                <Label Text="Row 0, Column 1"
+            <Image Grid.Row="0" Source="back.png" HorizontalOptions="Start" HeightRequest="30" WidthRequest="50"/>
+            <Label Text="Profile" Grid.Row="0"
                HorizontalOptions="Center"
-               VerticalOptions="Center" />
-            </Frame>
+               VerticalOptions="Center"  FontAttributes="Bold" FontSize="20" />
 
-            
+
+
             <Frame  Grid.Row="1" 
                    BackgroundColor="LightYellow" 
                    CornerRadius="55" 
                    Margin="10,10,10,0"
                     HeightRequest="100" WidthRequest="100">
-
-                <Image Source="Home.png"  />
+                <Image Source="userprofile.png"  />
             </Frame>
+            
+            <Label Grid.Row="2" Text="Name" HorizontalOptions="Center" Margin="0,10,0,0" FontSize="20"  FontAttributes="Bold"/>
+            <Label Grid.Row="2" Text="Miri Sarawak" HorizontalOptions="Center" Margin="0,30,0,0" FontSize="15"  FontAttributes="Bold"/>
 
-            <Frame  Grid.Row="2" 
-                   BackgroundColor="White" 
-                   CornerRadius="10" BorderColor="Black"
-                   Margin="10,10,10,0"
-                    >
-
-                <Label Text="Row 0, Column 1"
-               HorizontalOptions="Start"
-               VerticalOptions="Start"  />
-            </Frame>
             <Frame  Grid.Row="3" 
                    BackgroundColor="White" 
                    CornerRadius="10" BorderColor="Black"
-                   Margin="10,10,10,0">
+                   Margin="10,25,10,20"/>
+            <Label Text="Account Informations" Grid.Row="3"
+               HorizontalOptions="Start" 
+                   VerticalOptions="CenterAndExpand"
+                   Margin="70,10,0,0"
+                   FontAttributes="Bold"/>
+            <Image Grid.Row="3" Source="userprofile.png" HorizontalOptions="Start" 
+                   HeightRequest="30" WidthRequest="50" Margin="10,10,0,0"/>
+            <Image Grid.Row="3" Source="next.png" HorizontalOptions="End" 
+                   HeightRequest="20" WidthRequest="20" Margin="0,10,20,0"/>
 
-                <Label Text="Row 0, Column 1"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"  />
-            </Frame>
-            <Frame Grid.Row="4" 
+
+            <Frame  Grid.Row="4" 
                    BackgroundColor="White" 
                    CornerRadius="10" BorderColor="Black"
-                   Margin="10,10,10,0">
+                   Margin="10,25,10,20"/>
+            <Label Text="Settings" Grid.Row="4"
+               HorizontalOptions="Start" 
+                   VerticalOptions="CenterAndExpand"
+                   Margin="70,10,0,0"
+                   FontAttributes="Bold"/>
+            <Image Grid.Row="4" Source="settings.png" HorizontalOptions="Start" 
+                   HeightRequest="30" WidthRequest="50" Margin="10,10,0,0"/>
+            <Image Grid.Row="4" Source="next.png" HorizontalOptions="End" 
+                   HeightRequest="20" WidthRequest="20" Margin="0,10,20,0"/>
 
-                <Label Text="Row 0, Column 1"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"  />
-            </Frame>
-            <Frame Grid.Row="5" 
+            <Frame  Grid.Row="5" 
                    BackgroundColor="White" 
                    CornerRadius="10" BorderColor="Black"
-                   Margin="10,10,10,0">
+                   Margin="10,25,10,20"/>
+            <Label Text="Report History" Grid.Row="5"
+               HorizontalOptions="Start" 
+                   VerticalOptions="CenterAndExpand"
+                   Margin="70,10,0,0"
+                   FontAttributes="Bold"/>
+            <Image Grid.Row="5" Source="analysis.png" HorizontalOptions="Start" 
+                   HeightRequest="30" WidthRequest="50" Margin="10,10,0,0"/>
+            <Image Grid.Row="5" Source="next.png" HorizontalOptions="End" 
+                   HeightRequest="20" WidthRequest="20" Margin="0,10,20,0"/>
 
-                <Label Text="Row 0, Column 1"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"  />
-            </Frame>
+            <Frame  Grid.Row="6" 
+                   BackgroundColor="White" 
+                   CornerRadius="10" BorderColor="Black"
+                   Margin="10,25,10,20"/>
+            <Label Text="Log Out" Grid.Row="6"
+               HorizontalOptions="Start" 
+                   VerticalOptions="CenterAndExpand"
+                   Margin="70,10,0,0"
+                   FontAttributes="Bold"/>
+            <Image Grid.Row="6" Source="logout.png" HorizontalOptions="Start" 
+                   HeightRequest="30" WidthRequest="50" Margin="10,10,0,0"/>
+            <Image Grid.Row="6" Source="next.png" HorizontalOptions="End" 
+                   HeightRequest="20" WidthRequest="20" Margin="0,10,20,0"/>
+
+
+           
 
 
         </Grid>
