@@ -1,10 +1,14 @@
 ﻿obj\Debug\net7.0-android\resizetizer\r\drawable\analysis.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\back.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\chats.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\home.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\logout.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\next.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\notification.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\people.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\report.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\settings.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\tips.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\user.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\userprofile.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
