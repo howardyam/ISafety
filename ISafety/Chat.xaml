@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISafety.Chat"
+             Title="Chat">
+    <ScrollView>
+        <StackLayout>
+            <Grid Padding="20,20,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="70"/>
+                   
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition />
+
+                </Grid.ColumnDefinitions>
+
+
+
+
+                <Image Source="back.png" Grid.Row="0"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="0" Text="Chat"
+                       FontSize="20" FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Margin="0,0,0,0"/>
+
+
+                <Label Text="Authorities and Community&#10;Leaders" TextColor="Black" 
+                       Margin="0,0,0,0" FontSize="20" FontAttributes="Bold"
+                       Grid.Row="1" VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+                
+                
+                
+                <Image Source="userprofile.png" WidthRequest="50" 
+                       HeightRequest="50" Grid.Row="2"
+                       VerticalOptions="Start" HorizontalOptions="Start"
+                       Margin="5,0,0,0"/>
+                <Label Text="Meaow2" Grid.Row="2"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       FontSize="16" Margin="0,30,0,0"/>
+
+                <Image Source="userprofile.png" WidthRequest="50" 
+                       HeightRequest="50" Grid.Row="2"
+                       VerticalOptions="Start" HorizontalOptions="Start"
+                       Margin="100,0,0,0"/>
+                <Label Text="MOH" Grid.Row="2"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       FontSize="16" Margin="105,30,0,0"/>
+
+                
+                <Label Text="Your's Chats" TextColor="Black" 
+                       Margin="0,0,0,20" FontSize="20" FontAttributes="Bold"
+                       Grid.Row="3" VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+
+                <Frame Grid.Row="4" BorderColor="Black" CornerRadius="10" />
+                <Image Source="userprofile.png" WidthRequest="25" 
+                       HeightRequest="25" Grid.Row="4"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Margin="20,0,0,0" />
+                <Label Text="Meeowmwoe" FontSize="18" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Grid.Row="4" Margin="60,0,0,20"/>
+                <Label Text="happy birthday" FontSize="14" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Grid.Row="4" Margin="60,20,0,0"/>
+                <Label Text="1h ago" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="Start" HorizontalOptions="End"
+                       Grid.Row="4" Margin="0,10,10,0"/>
+
+
+
+                <Frame Grid.Row="5" BorderColor="Black" CornerRadius="10" />
+                <Image Source="userprofile.png" WidthRequest="25" 
+                       HeightRequest="25" Grid.Row="5"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Margin="20,0,0,0" />
+                <Label Text="Meeowmwoe22222" FontSize="18" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Grid.Row="5" Margin="60,0,0,20"/>
+                <Label Text="happy birthday" FontSize="14" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Grid.Row="5" Margin="60,20,0,0"/>
+                <Label Text="3h ago" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="Start" HorizontalOptions="End"
+                       Grid.Row="5" Margin="0,10,10,0"/>
+
+
+                <Frame Grid.Row="6" BorderColor="Black" CornerRadius="10" />
+                <Image Source="userprofile.png" WidthRequest="25" 
+                       HeightRequest="25" Grid.Row="6"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Margin="20,0,0,0" />
+                <Label Text="Meeowmwoe22222" FontSize="18" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Grid.Row="6" Margin="60,0,0,20"/>
+                <Label Text="happy birthday" FontSize="14" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Grid.Row="6" Margin="60,20,0,0"/>
+                <Label Text="30 minutes ago" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="Start" HorizontalOptions="End"
+                       Grid.Row="6" Margin="0,10,10,0"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

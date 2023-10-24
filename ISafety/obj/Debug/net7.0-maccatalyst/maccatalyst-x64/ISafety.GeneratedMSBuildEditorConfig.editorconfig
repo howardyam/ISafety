@@ -22,6 +22,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ISafety.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/howardyam1031/source/repos/ISafety/ISafety/Chat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Chat.xaml
+build_metadata.AdditionalFiles.TargetPath = Chat.xaml
+build_metadata.AdditionalFiles.RelativePath = Chat.xaml
+
 [C:/Users/howardyam1031/source/repos/ISafety/ISafety/Community.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Community.xaml
@@ -39,6 +45,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Profile.xaml
 build_metadata.AdditionalFiles.TargetPath = Profile.xaml
 build_metadata.AdditionalFiles.RelativePath = Profile.xaml
+
+[C:/Users/howardyam1031/source/repos/ISafety/ISafety/Quickreport.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Quickreport.xaml
+build_metadata.AdditionalFiles.TargetPath = Quickreport.xaml
+build_metadata.AdditionalFiles.RelativePath = Quickreport.xaml
 
 [C:/Users/howardyam1031/source/repos/ISafety/ISafety/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

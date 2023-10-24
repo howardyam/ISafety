@@ -23,13 +23,17 @@
                     <ColumnDefinition />
 
                 </Grid.ColumnDefinitions>
+                
                 <Frame Grid.RowSpan="2"
            Grid.Column="0"
            BackgroundColor="White"
            CornerRadius="10"
            BorderColor="Black"
            />
-
+                <Button Grid.Column="0"  Grid.RowSpan="2" BorderColor="Black" BorderWidth="1"
+                        CornerRadius="10" 
+                        BackgroundColor="White"
+                        Clicked="OnButton_Clicked1"/>
                 <Frame 
            Grid.Column="1"
            BackgroundColor="White"
@@ -39,7 +43,8 @@
 
 
 
-                <Button Grid.Column="1" BorderColor="Black" BorderWidth="1" CornerRadius="10" 
+                <Button Grid.Column="1" BorderColor="Black" BorderWidth="1"
+                        CornerRadius="10" 
                         BackgroundColor="White" Margin="10,0,0,0"
                         Clicked="OnButton_Clicked"/>
 
@@ -49,6 +54,12 @@
                    Margin="10,10,0,0">
 
                 </Frame>
+                <Button Grid.Column="1" Grid.Row="1" BorderColor="Black" BorderWidth="1"
+                        CornerRadius="10" 
+                        BackgroundColor="White" Margin="10,10,0,0"
+                        Clicked="OnButton_Clicked2"/>
+                
+                
                 <Label Grid.Row="1" Text="Quick Report" HorizontalOptions="Center"
                        Margin="0,10,0,0" FontSize="20"  FontAttributes="Bold"/> 
                 <Label Grid.Row="1" Text="For non-emergency 
