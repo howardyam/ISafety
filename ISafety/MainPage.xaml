@@ -30,8 +30,6 @@
            BorderColor="Black"
            />
 
-
-
                 <Frame 
            Grid.Column="1"
            BackgroundColor="White"
@@ -39,6 +37,11 @@
            BorderColor="Black" Margin="10,0,0,0"
            />
 
+
+
+                <Button Grid.Column="1" BorderColor="Black" BorderWidth="1" CornerRadius="10" 
+                        BackgroundColor="White" Margin="10,0,0,0"
+                        Clicked="OnButton_Clicked"/>
 
                 <Frame Grid.Column="1" Grid.Row="1" 
                    BackgroundColor="White" 
@@ -56,8 +59,9 @@
 
                 
                 <Label Grid.Column="1" Text="Safety &#10;Tips " HorizontalOptions="End"
-                       VerticalOptions="Center" Margin="0,0,30,40" FontSize="20"  FontAttributes="Bold"/>
-         
+                       VerticalOptions="Center" Margin="0,0,30,40" FontSize="20"  FontAttributes="Bold"
+                       />
+                
                 <Label Grid.Column="1" Text="For education &#10;and awareness" HorizontalOptions="End"
                      Margin="0,70,10,0" FontSize="12"  FontAttributes="Bold" VerticalOptions="Center"/>
                 <Image Grid.Column="1" Source="tips.png" HorizontalOptions="Start" 

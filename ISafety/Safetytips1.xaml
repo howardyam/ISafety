@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISafety.Safetytips1"
+             Title="Safetytips1">
+    <ScrollView>
+        <StackLayout>
+            <Grid Padding="20,20,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition />
+
+                </Grid.ColumnDefinitions>
+                <Button BorderColor="Black"  Grid.Row="1" 
+                        BackgroundColor="White" HeightRequest="60">
+                    <Button.Shadow>
+                        <Shadow Brush="black"
+                                Offset="10,10"
+                                Radius="10"
+                                Opacity="0.9"/>
+                    </Button.Shadow>
+                </Button>
+                <Button BorderColor="Black"  Grid.Row="2" 
+                        BackgroundColor="White" HeightRequest="60">
+                    <Button.Shadow>
+                        <Shadow Brush="black"
+                                Offset="10,10"
+                                Radius="10"
+                                Opacity="0.9"/>
+                    </Button.Shadow>
+                </Button>
+                <Button BorderColor="Black"  Grid.Row="3" 
+                        BackgroundColor="White" HeightRequest="60">
+                    <Button.Shadow>
+                        <Shadow Brush="black"
+                                Offset="10,10"
+                                Radius="10"
+                                Opacity="0.9"/>
+                    </Button.Shadow>
+                </Button>
+                <Button BorderColor="Black"  Grid.Row="4" 
+                        BackgroundColor="White" HeightRequest="60">
+                    <Button.Shadow>
+                        <Shadow Brush="black"
+                                Offset="10,10"
+                                Radius="10"
+                                Opacity="0.9"/>
+                    </Button.Shadow>
+                </Button>
+                <Image Source="back.png" Grid.Row="0"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="0" Text="Safety Tips"
+                       FontSize="20" FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       Margin="60,0,0,0"/>
+
+
+                <Image Source="back.png" Grid.Row="1"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="1" Text="Road Safety" FontSize="20" 
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start" VerticalOptions="Center"
+                        Margin="60,0,0,0"/>
+                <Image Source="next.png" Grid.Row="1"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="End" 
+                       Margin="0,0,20,0"/>
+
+
+                <Image Source="back.png" Grid.Row="2"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="2" Text="Road Safety" FontSize="20" 
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start" VerticalOptions="Center"
+                        Margin="60,0,0,0"/>
+                <Image Source="next.png" Grid.Row="2"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="End" 
+                       Margin="0,0,20,0"/>
+
+                <Image Source="back.png" Grid.Row="3"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="3" Text="Road Safety" FontSize="20" 
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start" VerticalOptions="Center"
+                        Margin="60,0,0,0"/>
+                <Image Source="next.png" Grid.Row="3"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="End" 
+                       Margin="0,0,20,0"/>
+
+                <Image Source="back.png" Grid.Row="4"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="4" Text="Road Safety" FontSize="20" 
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start" VerticalOptions="Center"
+                        Margin="60,0,0,0"/>
+                <Image Source="next.png" Grid.Row="4"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="End" 
+                       Margin="0,0,20,0"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
