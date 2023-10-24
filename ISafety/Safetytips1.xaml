@@ -21,7 +21,8 @@
 
                 </Grid.ColumnDefinitions>
                 <Button BorderColor="Black"  Grid.Row="1" 
-                        BackgroundColor="White" HeightRequest="60">
+                        BackgroundColor="White" HeightRequest="60"
+                        Clicked="OnButton_Clicked">
                     <Button.Shadow>
                         <Shadow Brush="black"
                                 Offset="10,10"

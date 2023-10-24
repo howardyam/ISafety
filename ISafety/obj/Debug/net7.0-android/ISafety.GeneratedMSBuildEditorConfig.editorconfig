@@ -73,3 +73,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Safetytips1.xaml
 build_metadata.AdditionalFiles.TargetPath = Safetytips1.xaml
 build_metadata.AdditionalFiles.RelativePath = Safetytips1.xaml
+
+[C:/Users/howardyam1031/source/repos/ISafety/ISafety/Safetytips2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Safetytips2.xaml
+build_metadata.AdditionalFiles.TargetPath = Safetytips2.xaml
+build_metadata.AdditionalFiles.RelativePath = Safetytips2.xaml

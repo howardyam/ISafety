@@ -3,10 +3,140 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ISafety.Community"
              Title="Community">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <StackLayout>
+            <Grid Padding="20,20,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25" />
+                    <RowDefinition Height="75"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="70"/>
+
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition />
+                    
+
+                </Grid.ColumnDefinitions>
+
+
+
+
+                <Image Source="back.png" Grid.Row="0"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="0" Text="Community"
+                       FontSize="20" FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       Margin="0,0,0,0"/>
+
+
+                <Label Text="Your reports" TextColor="Black" 
+                       Margin="0,0,0,0" FontSize="20" FontAttributes="Bold"
+                       Grid.Row="1" VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+
+
+                
+                <Frame Grid.Row="2" HorizontalOptions="Start" CornerRadius="10" BorderColor="Black"
+                       WidthRequest="300"/>
+                <Label Text="Road Safety" Grid.Row="2"
+                       VerticalOptions="Start" HorizontalOptions="Start"
+                       FontSize="20" FontAttributes="Bold" Margin="20,20,0,0"/>
+                <Label Text="Reported Date" Grid.Row="2"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       FontSize="12" FontAttributes="Bold" Margin="20,0,0,20"/>
+                <Label Text="Location" Grid.Row="2"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       FontSize="12" FontAttributes="Bold" Margin="20,50,0,20"/>
+                <Label Text="Progress" Grid.Row="2"
+                       VerticalOptions="End" HorizontalOptions="Start"
+                       FontSize="12" FontAttributes="Bold" Margin="20,0,0,10"/>
+
+                <Label Text="19/87/1987 19:08 PM" Grid.Row="2"
+                       VerticalOptions="Center" HorizontalOptions="Center"
+                       FontSize="12"  Margin="20,0,0,20"/>
+                <Label Text="10,Lot Aman2,Jalan Lanang&#10;96000 Sibu,Sarawak" Grid.Row="2"
+                       VerticalOptions="Center" HorizontalOptions="Center"
+                       FontSize="12"  Margin="50,50,0,0"/>
+                <Label Text="Pending" Grid.Row="2"
+                       VerticalOptions="End" HorizontalOptions="Center"
+                       FontSize="12" Margin="0,0,60,10"/>
+
+
+
+
+                <Label Text="Community Circle" TextColor="Black" 
+                       Margin="0,0,0,0" FontSize="20" FontAttributes="Bold"
+                       Grid.Row="3" VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+
+
+                <Label Text="Trending Post" TextColor="Black" 
+                       Margin="0,0,0,0" FontSize="16" FontAttributes="Bold"
+                       Grid.Row="4" VerticalOptions="Center" 
+                       HorizontalOptions="Start" />
+                <Frame CornerRadius="5" BorderColor="Black" Grid.Row="4"
+                       HorizontalOptions="End" WidthRequest="130" HeightRequest="25"/>
+                <Label Text="Make a post " TextColor="Black" 
+                       Margin="0,0,25,0" FontSize="16" FontAttributes="Bold"
+                       Grid.Row="4" VerticalOptions="Center" 
+                       HorizontalOptions="End" />
+                <Image Source="plus.png" HorizontalOptions="End" Grid.Row="4"
+                       HeightRequest="15" WidthRequest="15" Margin="0,0,5,0"/>
+
+
+                <Frame Grid.Row="5" BorderColor="Black" CornerRadius="10" />
+                <Image Source="userprofile.png" WidthRequest="25" 
+                       HeightRequest="25" Grid.Row="5"
+                       VerticalOptions="Start" HorizontalOptions="Start"
+                       Margin="20,20,0,0" />
+                <Label Text="Hole In The Middle" FontSize="18" FontAttributes="Bold"
+                       VerticalOptions="Start" HorizontalOptions="Start"
+                       Grid.Row="5" Margin="60,10,0,20"/>
+                <Label Text="Meoww2" FontSize="14" FontAttributes="Bold"
+                       VerticalOptions="Start" HorizontalOptions="Start"
+                       Grid.Row="5" Margin="60,30,0,0"/>
+                <Label Text="less than 100 m" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="Start" HorizontalOptions="End"
+                       Grid.Row="5" Margin="0,10,10,0"/>
+
+
+                <Label Text="When i was walking back to my home after i lepak&#10;outisde,suddenly i get tripped by a hole in the middle of the road.I go back home and meow meow to my meow man because i was too sad" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="Center" HorizontalOptions="Start"
+                       Grid.Row="5" Margin="20,0,0,0"/>
+                <Image HeightRequest="25" WidthRequest="25" Grid.Row="5" Source="analysis.png" 
+                       VerticalOptions="End" HorizontalOptions="Start" Margin="20,0,0,20"/>
+                <Label Text=" 120 Likes" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="End" HorizontalOptions="Start"
+                       Grid.Row="5" Margin="50,0,0,20"/>
+                <Image HeightRequest="25" WidthRequest="25" Grid.Row="5" Source="analysis.png" 
+                       VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,40,20"/>
+                <Label Text="Comments" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="End" HorizontalOptions="Center"
+                       Grid.Row="5" Margin="50,0,0,20"/>
+                <Image HeightRequest="25" WidthRequest="25" Grid.Row="5" Source="analysis.png" 
+                       VerticalOptions="End" HorizontalOptions="End" Margin="0,0,50,20"/>
+                <Label Text="Sent" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="End" HorizontalOptions="End"
+                       Grid.Row="5" Margin="50,0,20,20"/>
+                
+                
+             
+
+
+
+
+
+            </Grid>
+        </StackLayout>
+    </ScrollView>
 </ContentPage>

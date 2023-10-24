@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISafety.Safetytips2"
+             Title="Safetytips2">
+    <ScrollView>
+        <StackLayout>
+            <Grid Padding="20,20,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="325"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition />
+
+                </Grid.ColumnDefinitions>
+                <Frame BorderColor="Black"  Grid.Row="1" 
+                        BackgroundColor="White"
+                        />
+
+
+
+                <Image Source="back.png" Grid.Row="0"  WidthRequest="25" 
+                       HeightRequest="25"
+                       HorizontalOptions="Start" 
+                       Margin="10,0,0,0"/>
+                <Label Grid.Row="0" Text="Road Safety"
+                       FontSize="20" FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Center"
+                       Margin="60,0,0,0"/>
+                
+                
+                
+                <Label Grid.Row="1" Text="Road Safety" FontSize="24" 
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start" VerticalOptions="Start"
+                        Margin="20,20,0,0"/>
+                <Label Grid.Row="1" Text="Driving" FontSize="20" 
+                       
+                       HorizontalOptions="Center" VerticalOptions="Start"
+                        Margin="40,25,0,0"/>
+                <StackLayout Grid.Row="1">
+                    <Label Grid.Row="1" Text="1.   OBEY ALL TRAFFIC LAWS AND  LIGHTS" FontSize="14" 
+                       HorizontalOptions="Start" VerticalOptions="Start" FontAttributes="Bold"
+                       Margin="20,75,0,0"/>
+                    <Label Grid.Row="1" Text="      Must always follow the rules of the road" FontSize="14" 
+                       HorizontalOptions="Start" VerticalOptions="Start" 
+                       Margin="20,0,0,0"/>
+                    <Label Grid.Row="1" Text="1.   OBEY ALL TRAFFIC LAWS AND  LIGHTS" FontSize="14" 
+                       HorizontalOptions="Start" VerticalOptions="Start" FontAttributes="Bold"
+                       Margin="20,20,0,0"/>
+                    <Label Grid.Row="1" Text="      Must always follow the rules of the road" FontSize="14" 
+                       HorizontalOptions="Start" VerticalOptions="Start" 
+                       Margin="20,0,0,0"/>
+                    <Label Grid.Row="1" Text="1.   OBEY ALL TRAFFIC LAWS AND  LIGHTS" FontSize="14" 
+                       HorizontalOptions="Start" VerticalOptions="Start" FontAttributes="Bold"
+                       Margin="20,20,0,0"/>
+                    <Label Grid.Row="1" Text="      Must always follow the rules of the road" FontSize="14" 
+                       HorizontalOptions="Start" VerticalOptions="Start" 
+                       Margin="20,0,0,0"/>
+                </StackLayout>
+                <Frame Grid.Row="1" BorderColor="Black" CornerRadius="10" HeightRequest="75" VerticalOptions="End"/>
+                <Image HeightRequest="25" WidthRequest="25" Grid.Row="1" Source="analysis.png" 
+                       VerticalOptions="End" HorizontalOptions="Start" Margin="20,0,0,20"/>
+                <Label Text=" 120 Likes" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="End" HorizontalOptions="Start"
+                       Grid.Row="1" Margin="50,0,0,20"/>
+                <Image HeightRequest="25" WidthRequest="25" Grid.Row="1" Source="analysis.png" 
+                       VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,40,20"/>
+                <Label Text="Comments" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="End" HorizontalOptions="Center"
+                       Grid.Row="1" Margin="50,0,0,20"/>
+                <Image HeightRequest="25" WidthRequest="25" Grid.Row="1" Source="analysis.png" 
+                       VerticalOptions="End" HorizontalOptions="End" Margin="0,0,50,20"/>
+                <Label Text="Sent" FontSize="12" FontAttributes="Bold"
+                       VerticalOptions="End" HorizontalOptions="End"
+                       Grid.Row="1" Margin="50,0,20,20"/>
+
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

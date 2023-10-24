@@ -6,4 +6,11 @@ public partial class Safetytips1 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnButton_Clicked(object sender, EventArgs e)
+    {
+
+        await Navigation.PushAsync(new Safetytips2());
+
+    }
 }
