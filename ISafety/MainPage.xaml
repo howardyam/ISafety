@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ISafety.MainPage">
+             x:Class="ISafety.MainPage"
+             Shell.NavBarIsVisible="false">
+    
 
     <ScrollView>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="20">
@@ -68,11 +70,10 @@
                 <Image Grid.Row="0" Source="report.png" HorizontalOptions="Center" 
                    HeightRequest="150" WidthRequest="150" Margin="0,0,0,0"/>
 
-                
+
                 <Label Grid.Column="1" Text="Safety &#10;Tips " HorizontalOptions="End"
                        VerticalOptions="Center" Margin="0,0,30,40" FontSize="20"  FontAttributes="Bold"
                        />
-                
                 <Label Grid.Column="1" Text="For education &#10;and awareness" HorizontalOptions="End"
                      Margin="0,70,10,0" FontSize="12"  FontAttributes="Bold" VerticalOptions="Center"/>
                 <Image Grid.Column="1" Source="tips.png" HorizontalOptions="Start" 

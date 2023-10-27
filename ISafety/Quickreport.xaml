@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ISafety.Quickreport"
-             Title="Quickreport">
+             Title="Quickreport"
+             Shell.NavBarIsVisible="false">
     <ScrollView>
         <StackLayout>
             <Grid Padding="20,20,20,0">
@@ -23,11 +24,11 @@
                     <ColumnDefinition />
 
                 </Grid.ColumnDefinitions>
-                
 
 
-                
-                <Image Source="back.png" Grid.Row="0"  WidthRequest="25" 
+
+
+                <ImageButton Source="back.png" Grid.Row="0"  WidthRequest="25" Clicked="OnImageButtonClicked"
                        HeightRequest="25"
                        HorizontalOptions="Start" 
                        Margin="10,0,0,0"/>
@@ -37,37 +38,56 @@
                        VerticalOptions="Center"
                        Margin="60,0,0,0"/>
 
-                
+
                 <Label Text="What kind of safety?" TextColor="grey" Margin="0,0,0,10" FontSize="16" FontAttributes="Bold"
-                       Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+               Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Start"/>
+
                 <Frame BorderColor="black" CornerRadius="10" VerticalOptions="End" Grid.Row="1"/>
-                <Label Text="Personal Safety" Margin="10,0,0,10" FontSize="16" FontAttributes="Bold"
-                       Grid.Row="1" VerticalOptions="End" HorizontalOptions="Center"/>
-                <Image Source="down.png" VerticalOptions="End" HorizontalOptions="End" Grid.Row="1"
-                       WidthRequest="20" HeightRequest="20" Margin="0,0,10,10"/>
+
+                <Picker x:Name="SafetyPicker" Title="Select Safety Option" Grid.Row="1" VerticalOptions="End" HorizontalOptions="Center" FontSize="16" FontAttributes="Bold">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Near Miss Reports</x:String>
+                            <x:String>Injury and Lost Time Incident Report</x:String>
+                            <x:String>Exposure Incident Report</x:String>
+                            <x:String>Sentinel Event Report</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
 
 
                 <Label Text="What kind of type?" TextColor="grey" Margin="0,0,0,10" FontSize="16" FontAttributes="Bold"
                        Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Start"/>
                 <Frame BorderColor="black" CornerRadius="10" VerticalOptions="End" Grid.Row="2"/>
-                <Label Text="Personal Safety" Margin="10,0,0,10" FontSize="16" FontAttributes="Bold"
-                       Grid.Row="2" VerticalOptions="End" HorizontalOptions="Center"/>
-                <Image Source="down.png" VerticalOptions="End" HorizontalOptions="End" Grid.Row="2"
-                       WidthRequest="20" HeightRequest="20" Margin="0,0,10,10"/>
 
+                <Picker x:Name="Safetytype" Title="Select Safety Option" Grid.Row="2" VerticalOptions="End" HorizontalOptions="Center" FontSize="16" FontAttributes="Bold">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Near Miss Reports</x:String>
+                            <x:String>Injury and Lost Time Incident Report</x:String>
+                            <x:String>Exposure Incident Report</x:String>
+                            <x:String>Sentinel Event Report</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+                <Frame BorderColor="black" CornerRadius="10" VerticalOptions="End" Grid.Row="3" HeightRequest="150"/>
                 <Label Text="Description" TextColor="grey" Margin="0,20,0,0" FontSize="16" FontAttributes="Bold"
                        Grid.Row="3" VerticalOptions="Start" HorizontalOptions="Start"/>
-                <Frame BorderColor="black" CornerRadius="10" VerticalOptions="End" Grid.Row="3" HeightRequest="150"/>
+                <Editor 
+                        MaxLength="100"
+                        Grid.Row="3"
+                       Margin="0,50,0,0" FontSize="16" FontAttributes="Bold"
+                        Style="{StaticResource CommonEditorStyle}"/>
 
-                
-                
+
                 <Label Text="When" TextColor="grey" Margin="0,0,0,10" FontSize="16" FontAttributes="Bold"
                        Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Start"/>
                 <Frame BorderColor="black" CornerRadius="10" VerticalOptions="End" Grid.Row="4"/>
-                <Label Text="13/13/1987 19:89 PM" Margin="10,0,0,10" FontSize="16" FontAttributes="Bold"
-                       Grid.Row="4" VerticalOptions="End" HorizontalOptions="Center"/>
-                <Image Source="down.png" VerticalOptions="End" HorizontalOptions="End" Grid.Row="4"
-                       WidthRequest="20" HeightRequest="20" Margin="0,0,10,10"/>
+                <DatePicker MinimumDate="{Binding MinDate}" Grid.Row="4" VerticalOptions="End" HorizontalOptions="Center" FontAttributes="Bold" FontSize="16"
+                            MaximumDate="{Binding MaxDate}"
+                            Date="{Binding SelectedDate}" />
 
 
                 <Label Text="Where" TextColor="grey" Margin="0,20,0,0" FontSize="16" FontAttributes="Bold"
@@ -75,13 +95,15 @@
                 <Frame BorderColor="black" CornerRadius="10" VerticalOptions="End" Grid.Row="5" HeightRequest="150"/>
 
                 <Label Text="Upload Photo or Video" TextColor="grey" Margin="0,20,0,0" FontSize="16" FontAttributes="Bold"
-                       Grid.Row="6" VerticalOptions="Start" HorizontalOptions="Start"/>
+           Grid.Row="6" VerticalOptions="Start" HorizontalOptions="Start"/>
                 <Frame BorderColor="black" CornerRadius="10" VerticalOptions="End" Grid.Row="6" HeightRequest="50"/>
-                <Image Source="plus.png" WidthRequest="25" HeightRequest="25" Grid.Row="6" VerticalOptions="End"  
-                       Margin="0,0,0,15"/>
+                <ImageButton Source="plus.png" Clicked="OnUploadImageClicked" WidthRequest="25" HeightRequest="25" Grid.Row="6" VerticalOptions="End"  
+           Margin="0,0,0,15" Aspect="AspectFit"/>
+                <Image x:Name="PreviewImage" Grid.Row="6" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Aspect="AspectFit"/>
 
-                <Button BorderColor="Black" BorderWidth="1" BackgroundColor="White" Grid.Row="7" 
-                        WidthRequest="150" HeightRequest="50" HorizontalOptions="End"/>
+
+                <Button x:Name="submitbtn" BorderColor="Black" BorderWidth="1" BackgroundColor="White" Grid.Row="7" 
+                        WidthRequest="150" HeightRequest="50" HorizontalOptions="End" Clicked="SubmitButton"/>
                 <Label Grid.Row="7" Text="Comfirm" HorizontalOptions="End" VerticalOptions="Center"  
                        FontSize="18"  Margin="0,0,40,0"/>
 
