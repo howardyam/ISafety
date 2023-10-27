@@ -31,7 +31,8 @@
                     </Button.Shadow>
                 </Button>
                 <Button BorderColor="Black"  Grid.Row="2" 
-                        BackgroundColor="White" HeightRequest="60">
+                        BackgroundColor="White" HeightRequest="60"
+                        Clicked="GoToMap">
                     <Button.Shadow>
                         <Shadow Brush="black"
                                 Offset="10,10"

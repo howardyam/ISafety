@@ -13,4 +13,9 @@ public partial class Safetytips1 : ContentPage
         await Navigation.PushAsync(new Safetytips2());
 
     }
+
+    private async void GoToMap(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Map());
+    }
 }
