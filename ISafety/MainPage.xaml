@@ -2,21 +2,22 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ISafety.MainPage"
-             Shell.NavBarIsVisible="false">
-    
+             Shell.NavBarIsVisible="false"
+             >
 
-    <ScrollView>
-        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="20,20,20,0">
-            <Label Text="Welcome to ISafety"    HorizontalOptions="Start" FontSize="Large" 
-                   FontAttributes="Bold" Margin="5,10,0,20"/>
+    <ScrollView  >
+        
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="20,30,20,0">
+            <Label Text="Welcome to ISafety"    HorizontalOptions="Start" FontSize="25" FontFamily="Roboto" 
+                   FontAttributes="Bold" Margin="0,0,0,20" />
 
-            <Grid  >
+            <Grid  Padding="0,20,0,0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="150" />
                     <RowDefinition Height="100"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition Height="150"/>
                     <RowDefinition Height="75"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="150"/>
 
 
                 </Grid.RowDefinitions>
@@ -29,9 +30,9 @@
                 
                 <Button Grid.Column="0"  Grid.RowSpan="2" BorderColor="Black" BorderWidth="1"
                         CornerRadius="30" 
-                        BackgroundColor="White"
-                        Clicked="OnButton_Clicked1"/>
-              
+                        BackgroundColor="white"
+                        Clicked="OnButton_Clicked1" />
+
 
 
                 <Button Grid.Column="1" BorderColor="Black" BorderWidth="1"
@@ -41,22 +42,22 @@
 
                
                 <Button Grid.Column="1" Grid.Row="1" BorderColor="Black" BorderWidth="1"
-                        CornerRadius="30" 
+                        CornerRadius="20" 
                         BackgroundColor="White" Margin="10,10,0,0"
                         Clicked="OnButton_Clicked2"/>
                 
                 
                 <Label Grid.Row="1" Text="Quick Report" HorizontalOptions="Center"
-                       Margin="0,10,0,0" FontSize="20"  FontAttributes="Bold"/> 
+                       Margin="0,10,0,0" FontSize="20"  FontAttributes="Bold" FontFamily="Roboto-Bold" /> 
                 <Label Grid.Row="1" Text="For non-emergency 
                       only" HorizontalOptions="Center"
-                     Margin="18,50,0,0" FontSize="12"  FontAttributes="Bold"/>
+                     Margin="18,50,0,0" FontSize="12"  FontAttributes="None" FontFamily="Roboto-Black-900" />
                 <Image Grid.Row="0" Source="report.png" HorizontalOptions="Center" 
                    HeightRequest="150" WidthRequest="150" Margin="0,0,0,0"/>
 
 
                 <Label Grid.Column="1" Text="Safety &#10;Tips " HorizontalOptions="End"
-                       VerticalOptions="Center" Margin="0,0,30,40" FontSize="20"  FontAttributes="Bold"
+                       VerticalOptions="Center" Margin="0,0,30,40" FontSize="20"  FontAttributes="Bold" FontFamily="Roboto-Bold"
                        />
                 <Label Grid.Column="1" Text="For education &#10;and awareness" HorizontalOptions="End"
                      Margin="0,70,10,0" FontSize="12"  FontAttributes="Bold" VerticalOptions="Center"/>
@@ -66,20 +67,20 @@
 
 
                 <Label Grid.Row="1" Grid.Column="1" Text=" Chats" HorizontalOptions="Center" 
-                       VerticalOptions="Center" Margin="30,0,30,40" FontSize="20"  FontAttributes="Bold"/>
+                       VerticalOptions="Center" Margin="30,0,10,30" FontSize="20"  FontAttributes="Bold" FontFamily="Roboto-Bold"/>
 
                 <Label Grid.Row="1" Grid.Column="1" Text="Communicate with&#10;Authorities and local&#10;community group" HorizontalOptions="End"
-                     Margin="10,30,0,0" FontSize="12"  FontAttributes="Bold" VerticalOptions="Center"/>
+                     Margin="10,30,10,0" FontSize="10"  FontAttributes="Bold" VerticalOptions="Center"/>
                 <Image Grid.Column="1" Grid.Row="1" Source="chats.png" HorizontalOptions="Start" 
                    HeightRequest="100" WidthRequest="50" Margin="20,0,0,0"/>
 
 
                 <Label Grid.Row="2" Grid.ColumnSpan="2" Text="Safety Issues Nearby"  TextColor="black" 
-                HorizontalOptions="Start" FontSize="Large" FontAttributes="Bold" Margin="0,10"/>
+                HorizontalOptions="Start"  VerticalOptions="Start" FontSize="Large" FontAttributes="Bold"
+                       Margin="0,20,0,0" FontFamily="Roboto"/>
 
-                <Frame BorderColor="Black" CornerRadius="5" Margin="0" HeightRequest="150"
+                <Frame BorderColor="Black" CornerRadius="30" Margin="0" HeightRequest="150"
                        Grid.Row="3" Grid.ColumnSpan="2" />
-
                 <Frame WidthRequest="30" HeightRequest="30" Margin="20,20,0,0"
                        BackgroundColor="Red" CornerRadius="50" 
                        VerticalOptions="Start" HorizontalOptions="Start" Grid.Column="0" Grid.Row="3"/>
@@ -96,18 +97,25 @@
                        HorizontalOptions="Start" VerticalOptions="End" Grid.Row="3" Grid.ColumnSpan="2"
                        Margin="60,0,0,20"/>
 
-                <Image Source="analysis.png" Grid.Row="3" WidthRequest="25" HeightRequest="25"
+                <Image Source="analysis.png" Grid.Row="3" WidthRequest="25" HeightRequest="25"  
                        VerticalOptions="End" HorizontalOptions="Start"
-                       Margin="20,0,0,20"/>
+                       Margin="20,0,0,20"/>   
 
+
+
+                
                 <Frame Grid.Row="4" Grid.ColumnSpan="2"
-                       HeightRequest="75" CornerRadius="50" BorderColor="Black"
-                       
-                       Margin="0,40,0,0"/>
+                       HeightRequest="100" CornerRadius="50" BorderColor="Black"
+                       VerticalOptions="Center"
+                       Margin="0,0,0,0"/>
 
-                <Label Grid.Row="4" Grid.ColumnSpan="2" 
-                       Text="Swipe left for emergency" FontSize="20" FontAttributes="Bold"
-                       Margin="70,40,0,0"/>
+                <Label Grid.Row="4" Grid.ColumnSpan="2"  VerticalOptions="Center" HorizontalOptions="Center"
+                       Text="Swipe left for emergency" FontSize="15" FontAttributes="Bold" FontFamily="Roboto"
+                       Margin="40,0,0,0"/>
+
+                <Image Source="emergency1.png" Grid.Row="6" Grid.ColumnSpan="2" WidthRequest="100" HeightRequest= "100"
+        VerticalOptions="Center" HorizontalOptions="Start"
+        Margin="0,0,0,0"/>
 
             </Grid>
            
