@@ -6,7 +6,7 @@
     
 
     <ScrollView>
-        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="20,0,20,0">
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="20,20,20,0">
             <Label Text="Welcome to ISafety"    HorizontalOptions="Start" FontSize="Large" 
                    FontAttributes="Bold" Margin="5,10,0,20"/>
 
