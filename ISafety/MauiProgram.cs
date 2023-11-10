@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
-
+using ISafety.View;
+using ISafety.ViewModel;
 namespace ISafety;
 
 public static class MauiProgram
@@ -15,9 +16,15 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
+		//View Registration
+		builder.Services.AddSingleton<StudentListPage>();
+
+		// View Moedles
+		builder.Services.AddSingleton<StudentListPageViewModel>();
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
+		
 
 		return builder.Build();
 	}
