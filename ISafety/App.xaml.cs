@@ -1,4 +1,6 @@
-﻿namespace ISafety;
+﻿using Microsoft.Maui.Controls;
+namespace ISafety;
+
 
 public partial class App : Application
 {
@@ -6,7 +8,8 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
-		//MainPage = new Microsoft.Maui.Controls.NavigationPage(new MainPage());
-	}
+        //MainPage = new AppShell();
+        MainPage = new NavigationPage(new LoginPage());
+
+    }
 }

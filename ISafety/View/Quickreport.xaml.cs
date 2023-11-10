@@ -1,5 +1,5 @@
 
-namespace ISafety;
+namespace ISafety.View;
 
 
 public partial class Quickreport : ContentPage

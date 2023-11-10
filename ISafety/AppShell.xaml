@@ -10,7 +10,7 @@
 
         <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate views:StudentListPage}"
+        ContentTemplate="{DataTemplate views:MainPage}"
         Icon="home.png"
         Route="MainPage"/>
 

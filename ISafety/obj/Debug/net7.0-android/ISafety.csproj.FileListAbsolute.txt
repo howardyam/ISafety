@@ -4019,3 +4019,8 @@ C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\an
 C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\Firebase.Auth.dll
+C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\Firebase.dll
+C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\LiteDB.dll
+C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\Newtonsoft.Json.dll
+C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-android\android\assets\System.Reactive.dll

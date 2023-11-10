@@ -1,4 +1,4 @@
-namespace ISafety;
+namespace ISafety.View;
 
 public partial class Community : ContentPage
 {

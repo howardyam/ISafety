@@ -1,12 +1,12 @@
-using ISafety.ViewModel;
+
 
 namespace ISafety.View;
 
 public partial class StudentListPage : ContentPage
 {
-	public StudentListPage(StudentListPageViewModel viewModel)
+	public StudentListPage()
 	{
 		InitializeComponent();
-		this.BindingContext = viewModel;
+		
 	}
 }

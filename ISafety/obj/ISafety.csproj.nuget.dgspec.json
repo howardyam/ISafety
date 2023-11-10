@@ -61,6 +61,14 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -89,6 +97,10 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Xamarin.Android.Glide": {
               "target": "Package",
@@ -144,10 +156,6 @@
               "target": "Package",
               "version": "[1.7.0.1, )",
               "autoReferenced": true
-            },
-            "sqlite-net-pcl": {
-              "target": "Package",
-              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -183,6 +191,14 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -212,9 +228,9 @@
               "version": "[7.0.86, )",
               "autoReferenced": true
             },
-            "sqlite-net-pcl": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[1.8.116, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -250,6 +266,14 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -279,9 +303,9 @@
               "version": "[7.0.86, )",
               "autoReferenced": true
             },
-            "sqlite-net-pcl": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[1.8.116, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -318,6 +342,14 @@
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
           "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -363,9 +395,9 @@
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
             },
-            "sqlite-net-pcl": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[1.8.116, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
