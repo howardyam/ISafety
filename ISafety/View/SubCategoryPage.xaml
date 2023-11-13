@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISafety.View.SubCategoryPage"
+             Title="SubCategoryPage">
+    <StackLayout Padding="20">
+        <Picker x:Name="CategoryPicker" Title="Select Category"/>
+        <Entry x:Name="SubCatNameEntry" Placeholder="Sub Category Name"/>
+        <Entry x:Name="AreaSizeEntry" Placeholder="Area Size"/>
+        <Entry x:Name="DangerLvlEntry" Placeholder="Danger Level"/>
+        <Button Text="Add SubCategory" Clicked="OnAddSubCategoryClicked"/>
+
+
+    </StackLayout>
+</ContentPage>

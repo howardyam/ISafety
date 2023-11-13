@@ -13,7 +13,9 @@
                     <RowDefinition Height="70"/>
                     <RowDefinition Height="40"/>
                     <RowDefinition Height="200"/>
-                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
 
 
 
@@ -128,12 +130,13 @@
                 <Label Text="Sent" FontSize="12" FontAttributes="Bold"
                        VerticalOptions="End" HorizontalOptions="End"
                        Grid.Row="5" Margin="50,0,20,20"/>
-                
-                
-             
+
+                <Button Text="Subcat"  Grid.Row="6" Clicked="Subcat_Clicked" />
+                <Button Text="cat" Grid.Row="7"  Clicked="cat_Clicked" />
+                <Button Text="quick" Grid.Row="8"  Clicked="QR_Clicked" />
 
 
-
+              
 
 
             </Grid>

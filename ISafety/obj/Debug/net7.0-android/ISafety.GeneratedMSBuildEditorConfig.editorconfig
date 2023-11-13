@@ -50,6 +50,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Resources.Styles.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/CategoryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.CategoryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CategoryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CategoryPage.xaml
+
 [C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Chat.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Chat.xaml
@@ -80,6 +86,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Quickreport.x
 build_metadata.AdditionalFiles.TargetPath = View\Quickreport.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Quickreport.xaml
 
+[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/QuickReportPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.QuickReportPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\QuickReportPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\QuickReportPage.xaml
+
 [C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Safetytips1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Safetytips1.xaml
@@ -97,3 +109,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.StudentListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\StudentListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\StudentListPage.xaml
+
+[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/SubCategoryPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.SubCategoryPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SubCategoryPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SubCategoryPage.xaml

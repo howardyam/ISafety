@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISafety.View.QuickReportPage"
+             Title="QuickReportPage">
+    <StackLayout Padding="20">
+        <Picker x:Name="CategoryPicker" Title="Select Category" SelectedIndexChanged="OnCategorySelected"/>
+        <Picker x:Name="SubCategoryPicker" Title="Select SubCategory"/>
+        <DatePicker x:Name="ReportDatePicker"/>
+        <Entry x:Name="LatitudeEntry" Keyboard="Numeric" Placeholder="Latitude"/>
+        <Entry x:Name="LongitudeEntry" Keyboard="Numeric" Placeholder="Longitude"/>
+        <Editor x:Name="DescriptionEditor" Placeholder="Description"/>
+        <Entry x:Name="AddressEntry" Placeholder="Address"/>
+        <Button Text="Create Report" Clicked="OnCreateReportClicked"/>
+        <Label x:Name="ReportKeyLabel" TextColor="Black"/>
+        <Label x:Name="ReportDetailsLabel" TextColor="Black"/>
+    </StackLayout>
+</ContentPage>
