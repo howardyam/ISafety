@@ -53,5 +53,17 @@ namespace ISafety.Services
                 DangerLvl = item.Object.DangerLvl
             }).ToList();
         }
+
+        public async Task<List<QuickReportWithSubCategory>> GetQuickReportsWithSubCategory()
+        {
+            var quickReports = await firebase.Child("quickreports").OnceAsync<QuickReport>();
+            var subCategories = await firebase.Child("subcategories").OnceAsync<SubCategory>();
+
+            return quickReports.Select(qr => new QuickReportWithSubCategory
+            {
+                QuickReport = qr.Object,
+                SubCategory = subCategories.FirstOrDefault(sc => sc.Key == qr.Object.SubCatID)?.Object
+            }).ToList();
+        }
     }
 }

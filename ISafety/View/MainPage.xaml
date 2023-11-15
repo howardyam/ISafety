@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ISafety.View.MainPage"
+             xmlns:converters="clr-namespace:ISafety.Converters"
              Shell.NavBarIsVisible="false">
     
 
@@ -17,6 +18,7 @@
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="150"/>
                     <RowDefinition Height="75"/>
+                    <RowDefinition Height="150"/>
 
 
                 </Grid.RowDefinitions>
@@ -109,6 +111,28 @@
                        Text="Swipe left for emergency" FontSize="20" FontAttributes="Bold"
                        Margin="70,40,0,0"/>
 
+                <CollectionView ItemsSource="{Binding QuickReports}" Grid.Row="5" Grid.ColumnSpan="2">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="{Binding SubCategory.DangerLvl, Converter={StaticResource DangerLevelToColorConverter}}" Width="10" />
+                                <Label Text="{Binding QuickReport.QRDescription}" />
+                                <StackLayout>
+                                    <!-- QRDescription in bold -->
+                                    <Label Text="{Binding QuickReport.QRDescription}" FontAttributes="Bold" />
+
+                                    <!-- QRAddress -->
+                                    <Label Text="{Binding QuickReport.QRAddress}" />
+
+                                    <!-- Add more details as needed -->
+                                    <Label Text="{Binding QuickReport.ReportDateTime, StringFormat='Reported on {0:MM/dd/yyyy HH:mm}'}" />
+                                    <Label Text="{Binding QuickReport.Latitude, StringFormat='Latitude: {0:F2}'}" />
+                                    <Label Text="{Binding QuickReport.Longitude, StringFormat='Longitude: {0:F2}'}" />
+                                </StackLayout>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </Grid>
            
             
