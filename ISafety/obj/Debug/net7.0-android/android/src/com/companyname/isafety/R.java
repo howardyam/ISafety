@@ -10824,13 +10824,14 @@ public final class R {
     public static final int plus=0x7f0700d9;
     public static final int report=0x7f0700da;
     public static final int settings=0x7f0700db;
-    public static final int splash=0x7f0700dc;
-    public static final int test_level_drawable=0x7f0700dd;
-    public static final int tips=0x7f0700de;
-    public static final int tooltip_frame_dark=0x7f0700df;
-    public static final int tooltip_frame_light=0x7f0700e0;
-    public static final int user=0x7f0700e1;
-    public static final int userprofile=0x7f0700e2;
+    public static final int sos=0x7f0700dc;
+    public static final int splash=0x7f0700dd;
+    public static final int test_level_drawable=0x7f0700de;
+    public static final int tips=0x7f0700df;
+    public static final int tooltip_frame_dark=0x7f0700e0;
+    public static final int tooltip_frame_light=0x7f0700e1;
+    public static final int user=0x7f0700e2;
+    public static final int userprofile=0x7f0700e3;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

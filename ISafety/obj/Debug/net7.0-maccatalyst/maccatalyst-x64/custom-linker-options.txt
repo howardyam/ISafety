@@ -4,7 +4,7 @@ AreAnyAssembliesTrimmed=false
 				AOTCompiler=
 				AOTOutputDirectory=obj\Debug\net7.0-maccatalyst\maccatalyst-x64\nativelibraries/aot-output/
 				AppBundleManifestPath=bin\Debug\net7.0-maccatalyst\maccatalyst-x64\ISafety.app\Contents/Info.plist
-				CacheDirectory=C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-cache
+				CacheDirectory=C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-cache
 				
 				Debug=true
 				DeploymentTarget=
@@ -183,7 +183,7 @@ FrameworkAssembly=System.Private.CoreLib
 				Interpreter=all
 				IntermediateLinkDir=obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linked\
 				InvariantGlobalization=false
-				ItemsDirectory=C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-items
+				ItemsDirectory=C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=
 				LibMonoLinkMode=dylib

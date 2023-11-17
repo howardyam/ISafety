@@ -11,13 +11,14 @@
             <Label Text="Welcome to ISafety"    HorizontalOptions="Start" FontSize="Large" 
                    FontAttributes="Bold" Margin="5,10,0,20" FontFamily="Lobster"/>
 
-            <Grid  >
+            <Grid x:Name="SwipeArea" >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="150" />
                     <RowDefinition Height="100"/>
                     <RowDefinition Height="70"/>
                     <RowDefinition Height="200"/>
                     <RowDefinition Height="100"/>
+                    
                     
 
 
@@ -85,13 +86,21 @@
                 <Frame Grid.Row="4" Grid.ColumnSpan="2"
        HeightRequest="75" CornerRadius="50" BorderColor="Black"
        
-       Margin="0,40,0,0"/>
+       Margin="0,0,0,0"/>
 
                 <Label Grid.Row="4" Grid.ColumnSpan="2" 
        Text="Swipe left for emergency" FontSize="20" FontAttributes="Bold"
-       Margin="70,40,0,0"/>
+       Margin="70,35,0,0"/>
 
-                
+                <Grid x:Name="OverlayGrid" IsVisible="False" BackgroundColor="#C0000000" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="CountdownLabel" Text="" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" />
+                </Grid>
+
+                <ImageButton x:Name="SwipeButton" Source="sos.png"  WidthRequest="70" HeightRequest="70" CornerRadius="40" 
+                            Grid.ColumnSpan="2" Margin="0,0,0,0" Grid.Row="4" HorizontalOptions="Start"  />
+
+
+
                 <CarouselView ItemsSource="{Binding QuickReports}" Grid.Row="3" Grid.ColumnSpan="2"  >
                     <CarouselView.ItemTemplate >
                         <DataTemplate   >

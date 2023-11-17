@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>71b7f27e-16ca-4b2b-ac3e-76222c301a44</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\howardyam1031\source\repos\ISafety1\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\howardyam1031\source\repos\ISafety\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\howardyam1031\source\repos\ISafety1\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\howardyam1031\source\repos\ISafety\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety1\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety1\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ISafety.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ISafety.runtimeconfig.json">
       <PackagePath>ISafety.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety1\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ISafety.dll">
+    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety\ISafety\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ISafety.dll">
       <PackagePath>ISafety.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ISafety.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\howardyam1031\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
@@ -709,7 +709,7 @@
     <AppxPackagedFile Include="C:\Users\howardyam1031\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.3.0\runtimes\win7-x64\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety1\ISafety\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ISafety.deps.json">
+    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety\ISafety\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ISafety.deps.json">
       <PackagePath>ISafety.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
@@ -721,7 +721,7 @@
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.pri">
       <PackagePath>Microsoft.Maui.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety1\ISafety\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\howardyam1031\source\repos\ISafety\ISafety\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
