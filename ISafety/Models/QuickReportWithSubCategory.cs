@@ -10,5 +10,6 @@ namespace ISafety.Models
     {
         public QuickReport QuickReport { get; set; }
         public SubCategory SubCategory { get; set; }
+        public Category Category { get; set; }
     }
 }

@@ -38,6 +38,7 @@ public partial class QuickReportPage : ContentPage
         var selectedSubCategory = _subCategories[SubCategoryPicker.SelectedIndex];
         var quickReport = new QuickReport
         {
+            CategoryID = selectedSubCategory.CategoryID,
             SubCatID = selectedSubCategory.SubCatID,
             ReportDateTime = ReportDatePicker.Date,
             Latitude = decimal.Parse(LatitudeEntry.Text),

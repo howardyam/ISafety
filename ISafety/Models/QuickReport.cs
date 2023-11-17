@@ -9,6 +9,8 @@ namespace ISafety.Models
     public class QuickReport
     {
         public string QRID { get; set; }
+
+        public string CategoryID { get; set; }
         public string SubCatID { get; set; }
         public DateTime ReportDateTime { get; set; }
         public decimal Latitude { get; set; }

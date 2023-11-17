@@ -12,105 +12,105 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = ISafety
-build_property.ProjectDir = C:\Users\howardyam1031\source\repos\ISafety1\ISafety\
+build_property.ProjectDir = C:\Users\Student\Source\Repos\ISafety2\ISafety\
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/App.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/AppShell.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/LoginPage.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/RegisterPage.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/Resources/Styles/Colors.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/Resources/Styles/Styles.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/CategoryPage.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/CategoryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.CategoryPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\CategoryPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\CategoryPage.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Chat.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/Chat.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Chat.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Chat.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Chat.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Community.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/Community.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Community.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Community.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Community.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/MainPage.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Profile.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/Profile.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Profile.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Profile.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Profile.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Quickreport.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/Quickreport.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Quickreport.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Quickreport.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Quickreport.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/QuickReportPage.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/QuickReportPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.QuickReportPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\QuickReportPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\QuickReportPage.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Safetytips1.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/Safetytips1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Safetytips1.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Safetytips1.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Safetytips1.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/Safetytips2.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/Safetytips2.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.Safetytips2.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Safetytips2.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Safetytips2.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/StudentListPage.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/StudentListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.StudentListPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\StudentListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\StudentListPage.xaml
 
-[C:/Users/howardyam1031/source/repos/ISafety1/ISafety/View/SubCategoryPage.xaml]
+[C:/Users/Student/Source/Repos/ISafety2/ISafety/View/SubCategoryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ISafety.View.SubCategoryPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\SubCategoryPage.xaml

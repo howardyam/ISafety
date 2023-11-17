@@ -58,11 +58,13 @@ namespace ISafety.Services
         {
             var quickReports = await firebase.Child("quickreports").OnceAsync<QuickReport>();
             var subCategories = await firebase.Child("subcategories").OnceAsync<SubCategory>();
+            var categories = await firebase.Child("categories").OnceAsync<Category>();
 
             return quickReports.Select(qr => new QuickReportWithSubCategory
             {
                 QuickReport = qr.Object,
-                SubCategory = subCategories.FirstOrDefault(sc => sc.Key == qr.Object.SubCatID)?.Object
+                SubCategory = subCategories.FirstOrDefault(sc => sc.Key == qr.Object.SubCatID)?.Object,
+                Category = categories.FirstOrDefault(cat => cat.Key == qr.Object.CategoryID)?.Object
             }).ToList();
         }
     }
