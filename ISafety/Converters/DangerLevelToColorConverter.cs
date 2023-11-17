@@ -14,15 +14,18 @@ namespace ISafety.Converters
             try
             {
                 var dangerLevel = (int)value;
+                var lightRed = Color.FromRgb(248, 124, 86);
+                var lightOrange = Color.FromRgb(248, 205, 86);
+                var lightGreen = Color.FromRgb(169, 248, 86);
 
                 switch (dangerLevel)
                 {
                     case 3:
-                        return Colors.Red; // Assuming you are using MAUI, use Colors
+                        return lightRed; // Assuming you are using MAUI, use Colors
                     case 2:
-                        return Colors.Yellow;
+                        return lightOrange;
                     default:
-                        return Colors.Green;
+                        return lightGreen;
                 }
             }
             catch (Exception ex)

@@ -9,16 +9,16 @@
     <ScrollView>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Padding="20,20,20,0">
             <Label Text="Welcome to ISafety"    HorizontalOptions="Start" FontSize="Large" 
-                   FontAttributes="Bold" Margin="5,10,0,20"/>
+                   FontAttributes="Bold" Margin="5,10,0,20" FontFamily="Lobster"/>
 
             <Grid  >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="150" />
                     <RowDefinition Height="100"/>
-                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="70"/>
                     <RowDefinition Height="200"/>
-                    <RowDefinition Height="75"/>
-                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="100"/>
+                    
 
 
                 </Grid.RowDefinitions>
@@ -49,7 +49,7 @@
                 
                 
                 <Label Grid.Row="1" Text="Quick Report" HorizontalOptions="Center"
-                       Margin="0,10,0,0" FontSize="20"  FontAttributes="Bold"/> 
+                       Margin="0,10,0,0" FontSize="20"  FontAttributes="Bold" FontFamily="Lobster"/> 
                 <Label Grid.Row="1" Text="For non-emergency 
                       only" HorizontalOptions="Center"
                      Margin="18,50,0,0" FontSize="12"  FontAttributes="Bold"/>
@@ -59,7 +59,7 @@
 
                 <Label Grid.Column="1" Text="Safety &#10;Tips " HorizontalOptions="End"
                        VerticalOptions="Center" Margin="0,0,30,40" FontSize="20"  FontAttributes="Bold"
-                       />
+                       FontFamily="Lobster"/>
                 <Label Grid.Column="1" Text="For education &#10;and awareness" HorizontalOptions="End"
                      Margin="0,70,10,0" FontSize="12"  FontAttributes="Bold" VerticalOptions="Center"/>
                 <Image Grid.Column="1" Source="tips.png" HorizontalOptions="Start" 
@@ -68,16 +68,16 @@
 
 
                 <Label Grid.Row="1" Grid.Column="1" Text=" Chats" HorizontalOptions="Center" 
-                       VerticalOptions="Center" Margin="30,0,30,40" FontSize="20"  FontAttributes="Bold"/>
+                       VerticalOptions="Center" Margin="50,0,30,40" FontSize="20"  FontAttributes="Bold" FontFamily="Lobster"/>
 
                 <Label Grid.Row="1" Grid.Column="1" Text="Communicate with&#10;Authorities and local&#10;community group" HorizontalOptions="End"
-                     Margin="10,30,0,0" FontSize="12"  FontAttributes="Bold" VerticalOptions="Center"/>
+                     Margin="10,30,0,0" FontSize="12"  FontAttributes="Bold" VerticalOptions="Center" />
                 <Image Grid.Column="1" Grid.Row="1" Source="chats.png" HorizontalOptions="Start" 
                    HeightRequest="100" WidthRequest="50" Margin="20,0,0,0"/>
 
 
                 <Label Grid.Row="2" Grid.ColumnSpan="2" Text="Safety Issues Nearby"  TextColor="black" 
-                HorizontalOptions="Start" FontSize="Large" FontAttributes="Bold" Margin="0,10"/>
+                HorizontalOptions="Start" FontSize="Large" FontAttributes="Bold" Margin="0,20,0,0" FontFamily="Lobster"/>
 
                
 
@@ -91,43 +91,34 @@
        Text="Swipe left for emergency" FontSize="20" FontAttributes="Bold"
        Margin="70,40,0,0"/>
 
-                <!--<Label Text="Road Safety" TextColor="Black"
-                       FontSize="24" FontAttributes="Bold" 
-                       HorizontalOptions="Start"   VerticalOptions="Start" Grid.Row="3" Margin="60,20,0,0" Grid.ColumnSpan="2"/>
-                <Label Text="Car accident&#10;13/12/1987 9:13AM" TextColor="Black" FontSize="16"  HorizontalOptions="Start"   
-                       VerticalOptions="Center" Grid.Row="3" Margin="60,0,0,0" Grid.ColumnSpan="2"/>
-                
-                <Label Text="10, Lor Aman 2, Jalan Lanang, 96000 Sibu, Sarawak" 
-                       TextColor="Black" FontSize="12"  
-                       HorizontalOptions="Start" VerticalOptions="End" Grid.Row="3" Grid.ColumnSpan="2"
-                       Margin="60,0,0,20"/>
-
-                <Image Source="analysis.png" Grid.Row="3" WidthRequest="25" HeightRequest="25"
-                       VerticalOptions="End" HorizontalOptions="Start"
-                       Margin="20,0,0,20"/>-->
                 
                 <CarouselView ItemsSource="{Binding QuickReports}" Grid.Row="3" Grid.ColumnSpan="2"  >
                     <CarouselView.ItemTemplate >
                         <DataTemplate   >
-                            <Frame BorderColor="Black" CornerRadius="5" Margin="10" HeightRequest="200" Grid.Row="3" Grid.ColumnSpan="2" >
-                            <StackLayout Orientation="Vertical" Padding="10" >
-                               
+                            <Frame Background="{Binding SubCategory.DangerLvl, Converter={StaticResource DangerLevelToColorConverter}}"  CornerRadius="30" Margin="10" 
+                                   HeightRequest="200" Grid.Row="3" Grid.ColumnSpan="2" BorderColor="Transparent" 
+                                   >
+                                
 
-                                <!-- Adjust the layout as needed for carousel -->
-                                <Frame BackgroundColor="{Binding SubCategory.DangerLvl, Converter={StaticResource DangerLevelToColorConverter}}" 
-                       WidthRequest="30" HeightRequest="30" 
-                       CornerRadius="50" VerticalOptions="Start" HorizontalOptions="Start">
-                                </Frame>
-                                    <Label Text="{Binding Category.CategoryName}" FontAttributes="Bold" />
-                                    <Label Text="{Binding SubCategory.SubCatName}" FontAttributes="Bold" />
+                                <Grid  Padding="10,5,10,0" >
                                     
-                                    <Label Text="{Binding QuickReport.QRDescription}" FontAttributes="Bold" />
-                                <Label Text="{Binding QuickReport.QRAddress}" />
-                                <Label Text="{Binding QuickReport.ReportDateTime, StringFormat='Reported on {0:MM/dd/yyyy HH:mm}'}" />
-                                <Label Text="{Binding QuickReport.Latitude, StringFormat='Latitude: {0:F2}'}" />
-                                <Label Text="{Binding QuickReport.Longitude, StringFormat='Longitude: {0:F2}'}" />
-                                <!-- Add more elements as needed -->
-                            </StackLayout>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="40"/>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="20"/>
+                                        <RowDefinition Height="20"/>
+                                    </Grid.RowDefinitions>
+                                    
+                                    <Label Text="{Binding Category.CategoryName}" Grid.Row="0" FontAttributes="Bold" FontFamily="Lobster" FontSize="30" TextColor="Black"  />
+                                    <Label Text="{Binding SubCategory.SubCatName}" Grid.Row="1"  FontAttributes="Bold" FontFamily="Lobster" FontSize="24" TextColor="Black"/>
+                                    <Label Text="{Binding QuickReport.ReportDateTime, StringFormat='Reported on {0:MM/dd/yyyy HH:mm}'}" Grid.Row="2" FontFamily="Lobster-Regular" FontSize="14"/>
+                                    <Label Text="{Binding QuickReport.QRAddress}" FontSize="14" Grid.Row="3" />
+                                    <Label Text="{Binding QuickReport.Latitude, StringFormat='Latitude: {0:F2}'}" Grid.Row="4" FontFamily="Lobster-Regular"/>
+                                    <Label Text="{Binding QuickReport.Longitude, StringFormat='Longitude: {0:F2}'}" Grid.Row="5" FontFamily="Lobster-Regular" />
+                                 
+                                </Grid>
                             </Frame>
                         </DataTemplate>
                     </CarouselView.ItemTemplate>

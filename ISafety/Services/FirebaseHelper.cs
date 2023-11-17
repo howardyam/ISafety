@@ -56,6 +56,7 @@ namespace ISafety.Services
 
         public async Task<List<QuickReportWithSubCategory>> GetQuickReportsWithSubCategory()
         {
+
             var quickReports = await firebase.Child("quickreports").OnceAsync<QuickReport>();
             var subCategories = await firebase.Child("subcategories").OnceAsync<SubCategory>();
             var categories = await firebase.Child("categories").OnceAsync<Category>();
